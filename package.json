@@ -1,0 +1,29 @@
+{
+  "name": "page-diff",
+  "version": "0.2.0",
+  "description": "a new kernel of page-monitor https://github.com/fouber/page-monitor",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/fouber/page-diff.git"
+  },
+  "keywords": [
+    "page",
+    "diff",
+    "diff",
+    "dom",
+    "diff",
+    "page",
+    "monitor",
+    "monitor"
+  ],
+  "author": "fouber.NET@gmail.com",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/fouber/page-diff/issues"
+  },
+  "homepage": "https://github.com/fouber/page-diff"
+}
