@@ -13,7 +13,7 @@
             img {
                 display: inline-block;
             }
-            body {
+            html, body {
                 white-space: nowrap;
                 background: #fff;
                 vertical-align: top;
@@ -77,23 +77,5 @@
                 </div>
             </div>
         </div>
-        <script>
-            (function(){
-                var search = decodeURIComponent(location.search).substring(1).split('|');
-                function $(id){
-                    return document.getElementById(id);
-                }
-                $('left-title').innerHTML = search[2];
-                $('right-title').innerHTML = search[3];
-
-                var img = new Image();
-                img.src = search[0];
-                $('left-panel').appendChild(img);
-
-                img = new Image();
-                img.src = search[1];
-                $('right-panel').appendChild(img);
-            })();
-        </script>
     </body>
 </html>
