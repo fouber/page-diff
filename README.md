@@ -215,7 +215,6 @@ options:
     * desc: highlight style
     * type: ``Object``
     * default:
-    * default:
     
         ```js
         {
@@ -246,3 +245,5 @@ options:
             }
         }
         ```
+
+-------
