@@ -34,7 +34,7 @@ options:
     * type: ``Array``
     * default: 
     
-        ```json
+        ```js
         [
             "applet", "area", "audio", "base", "basefont",
             "bdi", "bdo", "big", "br", "center", "colgroup",
@@ -50,7 +50,7 @@ options:
     * type: ``Array``
     * default: 
     
-        ```json
+        ```js
         [
             "img", "canvas", "input", "textarea", "audio",
             "video", "hr", "embed", "object", "progress",
@@ -63,7 +63,7 @@ options:
     * type: ``Array``
     * default:
     
-        ```json
+        ```js
         [
             "margin-left", "margin-top", "margin-right", "margin-bottom",
             "border-left-color", "border-left-style", "border-left-width",
@@ -89,7 +89,7 @@ options:
     * type: ``Array``
     * default:
     
-        ```json
+        ```js
         [ 'id', 'class' ]
         ```
 
@@ -205,7 +205,7 @@ options:
     * type: ``Object``
     * default:
     
-        ```json
+        ```js
         {
             "resourceTimeout": 20000
         }
@@ -217,7 +217,7 @@ options:
     * default:
     * default:
     
-        ```json
+        ```js
         {
             add: {
                 title: "新增(Added)",
