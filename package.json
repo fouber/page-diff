@@ -1,6 +1,6 @@
 {
   "name": "page-diff",
-  "version": "0.2.1",
+  "version": "0.2.2",
   "description": "a new kernel of page-monitor https://github.com/fouber/page-monitor",
   "main": "index.js",
   "scripts": {
