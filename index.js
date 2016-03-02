@@ -2,7 +2,7 @@ exports.diff = require('./lib/diff');
 exports.walk = require('./lib/walk');
 exports.highlight = require('./lib/highlight');
 
-if(typeof phantom !== undefined){
+if(typeof phantom !== 'undefined'){
     var root = phantom.libraryPath;
 } else {
     root = __dirname;
